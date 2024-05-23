@@ -389,12 +389,9 @@ img {
 }
 
 /*===================== About ==================*/
-.about__img {
-  width: 170px;
-  border-radius: 500%;
-  justify-self: center;
-  align-self: center;
-  /* border: 1px solid #fff; */
+.about__img { 
+  height: 350px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the specified dimensions */
 }
 
 .about__description {
