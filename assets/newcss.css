@@ -283,16 +283,16 @@ img {
   color: var(--first-color-lighter);
 }
 
-.home__blob {
+/* .home__blob {
   width: 200px;
   fill: var(--first-color);
-  /* fill: hsl(69, 69%, 61%); */
-}
-.home__blob-img {
-  width: 180%;
-  height: 145%;
-  padding-left: 30px;
-}
+  fill: hsl(69, 69%, 61%); 
+} */
+/* .home__blob-img {
+  width: 175%;
+  height: 400;
+  padding-left: 45px;
+} */
 .home__data {
   grid-column: 1/3;
 }
