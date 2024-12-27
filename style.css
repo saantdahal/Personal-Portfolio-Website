@@ -356,7 +356,7 @@ p {
   height: 100%;
   width: 100%;
   position: relative;
-  border: 10px solid #0d52d3f4;
+  border: 10px solid #048785f4;
 }
 #about .col-left .about-img::after {
   content: "";
