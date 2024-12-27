@@ -79,7 +79,7 @@ p {
 }
 #header .nav-list ul {
   list-style: none;
-  background-color: #000208;
+  background-color: transparent;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -183,12 +183,13 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(Back-min.jpg); /*linear-gradient(60deg, #000104 0%, #565759 100%);*/
+  background-image: linear-gradient(60deg, #000104 15%, #565759 100%);  /*background-image: url(Images/Back-min.jpg); */
   background-size: cover;
   background-position: top center;
   position: relative;
   z-index: 1;
 }
+
 #hero::after {
   content: "";
   position: absolute;
