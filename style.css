@@ -79,7 +79,12 @@ p {
 }
 #header .nav-list ul {
   list-style: none;
-  background-color: transparent;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.95
+  ); /* dark background with some transparency */
   position: absolute;
   width: 100vw;
   height: 100vh;
